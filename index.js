@@ -38,6 +38,7 @@ function setPage(e) {
     navHome.classList.remove("active");
     homePage.style.display = "none";
     recipePage.style.display = "flex";
+    main.innerHTML = "";
   }
 }
 
